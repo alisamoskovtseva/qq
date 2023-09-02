@@ -1,0 +1,139 @@
+body{
+    background-color: #F0F8FF;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    border-radius: 28px;
+    }
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sow{
+    background: #90EE90;
+    padding: 15px;
+    border: 5px solid #98FB98;
+    margin: 20px;
+}
+.cont{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+.bg-yelow{
+    background: #ADD8E6;
+}
+.bg-green{
+    background: #F0E68C;
+}
+.bg-red{
+    background: #FFC0CB;
+}
+.card{
+    padding: 7px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.info{
+    margin-bottom: 20px;
+}
+.cq{
+    padding-bottom: 15px;
+}
+.list{
+    padding: 0 20px ;
+}
+.list li{
+    color: 	#483D8B;
+    margin-bottom: 10px;
+}
+.list2{
+    padding: 0 20px ;
+}
+.list2 li{
+    color: 	#FF1493;
+    margin-bottom: 10px;
+}
+.contact h2{
+    text-align: center;
+}
+.formgr label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.formgr input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10 px;
+    outline: none;
+    font-family: inherit;
+}
+.formgr textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10 px;
+    outline: none;
+    font-family: inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.row > .formgr{
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .formgr:last-child{
+    margin-right: 0;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+@media (max-width: 700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+.infot{
+    margin-left: 40px;
+}
+.infot h4{
+    margin-bottom: 10px;
+}
+.btm{
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btm:hover{
+    opacity:0.9;
+}
